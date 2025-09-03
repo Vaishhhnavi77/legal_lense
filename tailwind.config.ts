@@ -64,7 +64,7 @@ export default {
 					dark: 'hsl(var(--legal-dark))',
 					darker: 'hsl(var(--legal-darker))',
 					accent: 'hsl(var(--legal-accent))',
-					'accent-glow': 'hsl(var(--legal-accent-glow))',
+					'accent-soft': 'hsl(var(--legal-accent-soft))',
 					'text-primary': 'hsl(var(--legal-text-primary))',
 					'text-secondary': 'hsl(var(--legal-text-secondary))',
 					'text-muted': 'hsl(var(--legal-text-muted))',
@@ -89,11 +89,13 @@ export default {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)',
 				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-elegant': 'var(--gradient-elegant)',
 			},
 			boxShadow: {
 				'legal': 'var(--shadow-legal)',
 				'card': 'var(--shadow-card)',
 				'glow': 'var(--shadow-glow)',
+				'subtle': 'var(--shadow-subtle)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)',

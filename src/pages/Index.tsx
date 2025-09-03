@@ -121,20 +121,20 @@ const Index = () => {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold text-legal-text-primary leading-tight">
-                Understand Legal
-                <span className="text-transparent bg-gradient-primary bg-clip-text"> Documents</span>
-                <br />in Seconds
+                Professional Legal
+                <span className="text-transparent bg-gradient-primary bg-clip-text"> Document</span>
+                <br />Analysis
               </h1>
               <p className="text-xl md:text-2xl text-legal-text-secondary max-w-2xl mx-auto leading-relaxed">
-                Upload your contract, get AI-powered summaries, risk alerts, and negotiation insights instantly.
+                Sophisticated AI-powered analysis for contracts, agreements, and legal documents with institutional-grade insights.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Button variant="hero" size="lg" className="px-8 py-4 text-lg">
-                Start Free Analysis
+                Begin Analysis
               </Button>
-              <Button variant="legal" size="lg" className="px-8 py-4 text-lg">
+              <Button variant="elegant" size="lg" className="px-8 py-4 text-lg">
                 View Demo
               </Button>
             </div>
@@ -162,21 +162,21 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-legal-text-primary mb-4">
-              Get Started in 3 Simple Steps
+              Professional Analysis Process
             </h2>
             <p className="text-legal-text-secondary text-lg max-w-2xl mx-auto">
-              Our AI analyzes your legal documents and provides clear, actionable insights
+              Institutional-grade AI technology delivers comprehensive legal document insights with precision and clarity
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             {[
-              { step: "01", title: "Upload Document", desc: "Drag & drop your PDF or Word file" },
-              { step: "02", title: "AI Analysis", desc: "Our AI reviews every clause and identifies risks" },
-              { step: "03", title: "Get Insights", desc: "Receive summary, risk assessment & negotiation tips" }
+              { step: "01", title: "Secure Upload", desc: "Submit your confidential legal documents with enterprise-grade security" },
+              { step: "02", title: "Deep Analysis", desc: "Advanced AI examines every clause, term, and legal implication" },
+              { step: "03", title: "Expert Insights", desc: "Receive comprehensive analysis with strategic recommendations" }
             ].map((item, index) => (
-              <Card key={index} className="p-6 text-center bg-gradient-card hover:shadow-glow transition-all duration-300">
-                <div className="w-12 h-12 rounded-full bg-gradient-primary text-white font-bold text-lg flex items-center justify-center mx-auto mb-4">
+              <Card key={index} className="p-6 text-center bg-gradient-elegant hover:shadow-subtle transition-all duration-300 border-legal-accent/10">
+                <div className="w-12 h-12 rounded-full bg-gradient-primary text-primary-foreground font-bold text-lg flex items-center justify-center mx-auto mb-4">
                   {item.step}
                 </div>
                 <h3 className="text-xl font-semibold text-legal-text-primary mb-2">{item.title}</h3>
@@ -198,7 +198,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4">
             <p className="text-sm text-legal-text-muted">
-              <strong>Legal Disclaimer:</strong> ClearClause provides AI-powered document analysis for informational purposes only. 
+              <strong>Legal Disclaimer:</strong> Legal Lense provides AI-powered document analysis for informational purposes only. 
               This service is not a substitute for professional legal advice. Always consult with a qualified attorney for legal matters.
             </p>
             <div className="flex items-center justify-center space-x-6 text-sm text-legal-text-muted">

@@ -1,17 +1,18 @@
-import { Scale, Menu } from "lucide-react";
+import { Search, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/legal-lense-logo.png";
 
 const Header = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-3">
-          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-primary">
-            <Scale className="w-6 h-6 text-white" />
+          <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-elegant">
+            <img src={logoImage} alt="Legal Lense" className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-legal-text-primary">ClearClause</h1>
-            <p className="text-xs text-legal-text-muted">Contracts Made Simple</p>
+            <h1 className="text-xl font-bold text-legal-text-primary">Legal Lense</h1>
+            <p className="text-xs text-legal-text-muted">Professional Document Analysis</p>
           </div>
         </div>
 
